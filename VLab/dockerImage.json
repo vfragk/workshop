@@ -1,0 +1,16 @@
+{
+  "image": "nverde/11.3.1:0.2",
+  "resources": {
+    "memory_mb": "10000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "./run.sh"
+ ]
+  }
+}
