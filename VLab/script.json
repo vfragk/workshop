@@ -1,0 +1,19 @@
+{
+  "scripts": [
+    {
+      "repoPath": "run.sh",
+      "targetPath": "run.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "2_11.3.1_PreProcessing.py",
+      "targetPath": "2_11.3.1_PreProcessing.py",
+      "pathType": "FILE"
+ },
+  {
+      "repoPath": "3_11.3.1_Built-Up.py",
+      "targetPath": "3_11.3.1_Built-Up.py",
+      "pathType": "FILE"
+ }
+  ]
+}
