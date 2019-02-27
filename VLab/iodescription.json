@@ -2,7 +2,7 @@
   "inputs": [
    
    {
-      "id": "DataObject_2A",
+      "id": "DataObject_2Ainput",
       "inputType": "individual",
       "valueType": "value",
       "description": "URL to download the Sentinel 2A scene",
@@ -13,10 +13,10 @@
       "target": "data/Downloads/Now/S2A.zip"
  }, 
  {
-      "id": "DataObject_2B",
+      "id": "DataObject_2Binput",
       "inputType": "individual",
       "valueType": "value",
-      "description": "URL to download the Sentinel 2A scene",
+      "description": "URL to download the Sentinel 2B scene",
       "name": "Sentinel 2B scene",
       "obligation": true,
       "hasDefault": false,
