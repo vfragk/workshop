@@ -22,6 +22,17 @@
       "hasDefault": false,
       "valueSchema": "url",
       "target": "data/Downloads/Past/S2B.zip"
+ }, 
+ {
+      "id": "aoi",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Area of interest",
+      "name": "Area of in tereste",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "aoi.zip"
  }
    ],
   "outputs": [
