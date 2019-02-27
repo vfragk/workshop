@@ -32,8 +32,9 @@
       "description": "S2A tif",
       "name": "S2A png",
       "valueSchema": "url",
-      "target": "data/Built-Up/Now/built-up-area.tif
+      "target": "data/Built-Up/Now/built-up-area.tif"
  },
+ 
   {
       "id": "DataObject_2B",
       "outputType": "individual",
@@ -41,7 +42,7 @@
       "description": "S2B tif",
       "name": "S2B tif",
       "valueSchema": "url",
-      "target": "data/Built-Up/Past/built-up-area.tif
+      "target": "data/Built-Up/Past/built-up-area.tif"
  }
   ]
 }
