@@ -1,0 +1,47 @@
+{
+  "inputs": [
+   
+   {
+      "id": "DataObject_2A",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the Sentinel 2A scene",
+      "name": "Sentinel 2A scene",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "data/Downloads/Now/S2A.zip"
+ }, 
+ {
+      "id": "DataObject_2B",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the Sentinel 2A scene",
+      "name": "Sentinel 2B scene",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "data/Downloads/Past/S2B.zip"
+ }
+   ],
+  "outputs": [
+    {
+      "id": "DataObject_2A",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "S2A tif",
+      "name": "S2A png",
+      "valueSchema": "url",
+      "target": "data/Built-Up/Now/built-up-area.tif
+ },
+  {
+      "id": "DataObject_2B",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "S2B tif",
+      "name": "S2B tif",
+      "valueSchema": "url",
+      "target": "data/Built-Up/Past/built-up-area.tif
+ }
+  ]
+}
