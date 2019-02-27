@@ -121,7 +121,7 @@ startedTime = datetime.now(timezone.utc)
 
 # get current working directory
 cwd = pathlib.Path.cwd()
-downPath = os.path.join(str(cwd), "Downloads")
+downPath = os.path.join(str(cwd), "data/Downloads")
 
 # extract all zipped images in Past folder
 unzip(os.path.join(downPath, "Past"))
@@ -135,7 +135,7 @@ tiffPath = pathlib.Path("Mul_TIFFS")
 
 
 # set the folder where your data exists
-nowDatPath = pathlib.Path("Downloads/Now")
+nowDatPath = pathlib.Path("data/Downloads/Now")
 
 # set folder for stacked tiff export
 if not os.path.exists(os.path.join(tiffPath, "Now")):
@@ -144,7 +144,7 @@ nowPath = os.path.join(tiffPath, "Now")
 
 
 # set the folder where your data exists
-pastDatPath = pathlib.Path("Downloads/Past")
+pastDatPath = pathlib.Path("data/Downloads/Past")
 
 # set folder for stacked tiff export
 if not os.path.exists(os.path.join(tiffPath, "Past")):
