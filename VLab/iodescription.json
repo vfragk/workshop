@@ -43,7 +43,7 @@
       "description": "S2A tif",
       "name": "S2A tif",
       "valueSchema": "url",
-      "target": "data/Built-Up/Now/built-up-area.tif"
+      "target": "Built-Up/Now/built-up-area.tif"
  },
  
   {
@@ -53,7 +53,7 @@
       "description": "S2B tif",
       "name": "S2B tif",
       "valueSchema": "url",
-      "target": "data/Built-Up/Past/built-up-area.tif"
+      "target": "Built-Up/Past/built-up-area.tif"
  }
   ]
 }
